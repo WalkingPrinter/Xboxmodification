@@ -116,5 +116,16 @@
         {
 
         }
+
+        private void galleryControl1_Gallery_ItemClick(object sender, GalleryItemClickEventArgs e)
+        {
+            SelectedGalleryItem = e.Item;
+
+            Point currentPosition;
+            if (Kernel.GetCursorPos(out currentPosition))
+            {
+                popupScreenshotOptions.ShowPopup(currentPosition);
+            }
+        }
     }
 }

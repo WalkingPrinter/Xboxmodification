@@ -414,6 +414,7 @@
             // 
             this.galleryControl1.Gallery.ItemImageLayout = DevExpress.Utils.Drawing.ImageLayoutMode.Stretch;
             this.galleryControl1.Gallery.ItemRightClick += new DevExpress.XtraBars.Ribbon.GalleryItemClickEventHandler(this.galleryControl1_Gallery_ItemRightClick);
+            this.galleryControl1.Gallery.ItemClick += new DevExpress.XtraBars.Ribbon.GalleryItemClickEventHandler(this.galleryControl1_Gallery_ItemClick);
             this.galleryControl1.Location = new System.Drawing.Point(2, 2);
             this.galleryControl1.Name = "galleryControl1";
             this.galleryControl1.Size = new System.Drawing.Size(1133, 545);
