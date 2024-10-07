@@ -4,12 +4,8 @@
     using System.Threading.Tasks;
     using DevExpress.XtraBars.Ribbon;
     using DevExpress.XtraBars;
-    using DevExpress.XtraEditors;
-    using Server;
-    using Xboxmodification.Utilities;
 
     using XDevkit;
-    using DevExpress.Services.Internal;
     using System.Drawing;
 
     public partial class EntryForm : DevExpress.XtraBars.Ribbon.RibbonForm
@@ -100,5 +96,8 @@
             });
         }
 
+        #region EVENTS
+        private void BarButtonHomebrewScreenshot_ItemClick(object sender, ItemClickEventArgs e) => new Homebrews.ScreenshotForm().ShowDialog();
+        #endregion
     }
 }

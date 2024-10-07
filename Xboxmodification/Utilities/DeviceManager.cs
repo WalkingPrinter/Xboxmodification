@@ -2,7 +2,6 @@
 {
     using System;
     using System.Threading.Tasks;
-    using Xboxmodification.Utilities;
     using XDevkit;
 
     public class DeviceManager

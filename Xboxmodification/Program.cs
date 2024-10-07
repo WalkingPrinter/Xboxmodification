@@ -12,6 +12,9 @@
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            Directories.Initialize();
+
             Application.Run(new Forms.EntryForm());
         }
     }

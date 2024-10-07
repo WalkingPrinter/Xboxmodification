@@ -1,4 +1,4 @@
-﻿namespace Xboxmodification.Utilities {
+﻿namespace Xboxmodification {
     using System;
     using XDevkit;
 
